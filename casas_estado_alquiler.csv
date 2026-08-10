@@ -1,0 +1,12 @@
+ID,Tipo,Titulo,Direccion,Ubicacion,Dormitorios,Banos,Superficie_m2,Precio_USD,Inmobiliaria,Estado_publicacion,Alquilada
+moderno-jardin,Duplex,Hermoso Duplex Moderno con Jardin Privado,"Gorriti 5100, Palermo, CABA",Palermo Soho,2,2,110,245000,La Ramos,Venta,No
+casa-premium,Casa,Casa Premium en Barrio Cerrado,Av. San Martin 1200,Villa Allende,3,3,220,315000,Tracto Propiedades,Venta,No
+depto-vista,Departamento,Departamento con Vista Panoramica,Buenos Aires 850,Nueva Cordoba,2,2,145,420000,Gomez Estevez,Venta,No
+edificio-centro,Departamento,Departamento Clasico Reciclado,Av. Quintana 200,Recoleta,2,1,85,189000,La Ramos,Venta,No
+quinta-verde,Casa,Casa Quinta con Galeria Verde,Belgrano 900,Ramos Mejia,4,3,240,390000,Ramos Premium,Venta,No
+loft-industrial,Loft,Loft Industrial con Terraza,Thames 1800,Palermo Soho,1,1,58,135000,Tracto Propiedades,Venta,No
+casa-minimal,Casa,Casa Minimalista con Patio,"Superi 2300, Belgrano",Belgrano R,3,2,180,298000,Norte Propiedades,Venta,No
+ph-boedo,PH,PH Reciclado con Patio Propio,"Maza 840, Boedo",Boedo,2,1,92,165000,Sur Casas,Venta,No
+depto-caballito,Departamento,Departamento Familiar con Balcon,Pedro Goyena 600,Caballito,3,2,105,210000,Centro Hogar,Venta,No
+duplex-nordelta,Duplex,Duplex Premium con Muelle,Barrio Los Lagos,Nordelta,4,3,260,460000,Delta Real Estate,Venta,No
+monoambiente-centro,Departamento,Monoambiente Divisible Luminoso,Maipu 500,Microcentro,1,1,42,89000,Urbana BA,Venta,No

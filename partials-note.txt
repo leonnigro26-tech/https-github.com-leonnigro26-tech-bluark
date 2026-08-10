@@ -1,0 +1,1 @@
+Shared layout is embedded in each HTML file for this static school project.
