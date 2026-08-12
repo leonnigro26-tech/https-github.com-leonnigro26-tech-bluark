@@ -3,63 +3,101 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Bluark, inmobiliaria para comprar y alquilar propiedades con confianza.">
-  <title>Bluark Inmobiliaria | Tu próximo hogar</title>
-  <link rel="stylesheet" href="styles.css?v=home-20260809-2">
+  <meta name="description" content="Bluark, inmobiliaria para comprar y alquilar propiedades con información clara y asesoramiento cercano.">
+  <title>Bluark Inmobiliaria | Encontrá tu lugar</title>
+  <link rel="stylesheet" href="styles.css?v=home-20260811-4">
 </head>
-<body class="home home-new">
-  <header class="new-header">
-    <a class="new-brand" href="index.html" aria-label="Bluark, inicio"><img src="bluark-circle-logo.png" alt=""><span>BLUARK<small>INMOBILIARIA</small></span></a>
-    <nav class="new-nav" aria-label="Navegación principal"><a class="active" href="index.html">Inicio</a><a href="comprar.html">Comprar</a><a href="alquilar.html">Alquilar</a><a href="ayuda.html">Ayuda</a><a href="favoritos.html" aria-label="Favoritos">♡</a></nav>
+<body class="home home-trust">
+  <header class="app-header">
+    <nav class="topbar" aria-label="Navegación principal">
+      <a class="brand" href="index.html?home=home-20260811-5" aria-label="Bluark, inicio"><img class="brand-logo" src="bluark-circle-logo.png" alt="Logo de Bluark"><span>BLUARK<small>INMOBILIARIA</small></span></a>
+      <div class="nav-links">
+        <a class="active" href="index.html?home=home-20260811-5">Inicio</a>
+        <a href="alquilar.html?view=20260811-4">Alquilar</a>
+        <a href="comprar.html?view=20260811-4">Compra</a>
+        <a href="ayuda.html?view=20260811-4">Ayuda</a>
+        <a href="favoritos.html?view=20260811-4">Fav</a>
+      </div>
+    </nav>
   </header>
+
   <main>
-    <section class="new-hero">
-      <div class="new-hero-content">
-        <p class="new-kicker">Inmobiliaria · compra · alquiler</p>
-        <h1>El lugar correcto para tu próxima historia.</h1>
-        <p class="new-lead">En Bluark reunimos propiedades y asesoramiento inmobiliario para que encuentres un espacio donde vivir, invertir y crecer.</p>
-        <form class="new-search" action="comprar.html" method="get">
-          <label for="homeSearch">¿Qué zona estás buscando?</label>
-          <div><input id="homeSearch" name="q" placeholder="Ej.: Palermo, Belgrano, Nueva Córdoba"><button type="submit">Buscar <span aria-hidden="true">→</span></button></div>
+    <section class="trust-hero" aria-labelledby="hero-title">
+      <img class="trust-hero-image" src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&amp;fit=crop&amp;w=2000&amp;q=85" alt="Interior luminoso de una vivienda contemporánea">
+      <div class="trust-hero-shade"></div>
+      <div class="trust-hero-content">
+        <p class="trust-eyebrow">BLUARK INMOBILIARIA</p>
+        <h1 id="hero-title">Tu próximo hogar empieza con una decisión clara.</h1>
+        <p class="trust-lead">Encontrá propiedades para comprar o alquilar con información transparente, asesoramiento real y un recorrido a tu ritmo.</p>
+        <form class="trust-search" action="comprar.html?view=20260811-4" method="get">
+          <label for="homeSearch">¿Qué zona te gustaría explorar?</label>
+          <div class="trust-search-row">
+            <input id="homeSearch" name="q" placeholder="Palermo, Nueva Córdoba, Villa Allende">
+            <button type="submit">Buscar propiedades</button>
+          </div>
         </form>
-        <div class="new-hero-links"><span>Explorá:</span><a href="comprar.html">Propiedades en venta</a><a href="alquilar.html">Propiedades en alquiler</a></div>
+        <div class="trust-hero-actions">
+          <a class="trust-button trust-button-light" href="comprar.html?view=20260811-4">Ver propiedades en venta</a>
+          <a class="trust-text-action" href="alquilar.html?view=20260811-4">Explorar alquileres <span aria-hidden="true">&#8594;</span></a>
+        </div>
       </div>
-      <div class="new-hero-image"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=82" alt="Living contemporáneo y luminoso"><div><span>BLUARK</span><p>Una forma más simple de encontrar tu lugar.</p></div></div>
+      <div class="trust-hero-note"><span>Una búsqueda mejor informada</span><strong>Comprar o alquilar, con respaldo Bluark.</strong></div>
     </section>
-    <section class="home-proof" aria-label="Bluark en números">
-      <div><strong>+120</strong><span>propiedades publicadas</span></div>
-      <div><strong>06</strong><span>zonas para explorar</span></div>
-      <div><strong>24 h</strong><span>para recibir asesoramiento</span></div>
-      <div><strong>01</strong><span>decisión más clara</span></div>
+
+    <section class="trust-signals" aria-label="Compromisos de Bluark">
+      <article><strong>Datos claros</strong><span>Información ordenada en cada publicación.</span></article>
+      <article><strong>Atención cercana</strong><span>Personas reales para resolver tus dudas.</span></article>
+      <article><strong>Decisiones seguras</strong><span>Compará alternativas con tranquilidad.</span></article>
     </section>
-    <section class="new-intro">
-      <p class="new-kicker">La forma Bluark</p>
-      <div><h2>Encontrá. Compará. Elegí mejor.</h2><p>Propiedades seleccionadas, datos claros y acompañamiento real para que comprar o alquilar se sienta simple.</p><a href="ayuda.html">Conocé cómo te acompañamos <span aria-hidden="true">→</span></a></div>
+
+    <section class="trust-intro" aria-labelledby="intro-title">
+      <div><p class="trust-eyebrow trust-eyebrow-dark">UNA INMOBILIARIA PARA DECIDIR BIEN</p><h2 id="intro-title">Todo lo importante, antes de dar el siguiente paso.</h2></div>
+      <p>Sabemos que elegir una propiedad es más que mirar metros cuadrados. Por eso reunimos opciones, detalles y acompañamiento para que encuentres un lugar que tenga sentido para tu vida.</p>
     </section>
-    <section class="new-services" aria-label="Servicios de Bluark">
-      <article><span>01</span><h2>Comprar</h2><p>Encontrá oportunidades para vivir o invertir, con información clara en cada propiedad.</p><a href="comprar.html">Ver propiedades <span aria-hidden="true">→</span></a></article>
-      <article><span>02</span><h2>Alquilar</h2><p>Elegí tu próximo hogar entre opciones verificadas y asesoramiento a tu medida.</p><a href="alquilar.html">Ver alquileres <span aria-hidden="true">→</span></a></article>
-      <article><span>03</span><h2>Asesoramiento</h2><p>Te ayudamos a comparar, resolver dudas y dar el siguiente paso con tranquilidad.</p><a href="ayuda.html">Hablar con Bluark <span aria-hidden="true">→</span></a></article>
+
+    <section class="trust-routes" aria-label="Opciones de búsqueda">
+      <a class="trust-route trust-route-buy" href="comprar.html?view=20260811-4">
+        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&amp;fit=crop&amp;w=1200&amp;q=82" alt="Casa moderna para comprar">
+        <div><span>01 / COMPRAR</span><strong>Encontrá un lugar para vivir, crecer o invertir.</strong><small>Ver propiedades en venta <b aria-hidden="true">&#8594;</b></small></div>
+      </a>
+      <a class="trust-route trust-route-rent" href="alquilar.html?view=20260811-4">
+        <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&amp;fit=crop&amp;w=1200&amp;q=82" alt="Departamento luminoso para alquilar">
+        <div><span>02 / ALQUILAR</span><strong>Tu próximo hogar puede estar más cerca de lo que pensás.</strong><small>Ver propiedades en alquiler <b aria-hidden="true">&#8594;</b></small></div>
+      </a>
     </section>
-    <section class="home-paths" aria-label="Elegí cómo empezar">
-      <div class="home-paths-heading"><p class="new-kicker">Empezá por acá</p><h2>Una búsqueda, a tu manera.</h2><p>Elegí el recorrido que mejor se adapta a lo que necesitás hoy.</p></div>
-      <a class="home-path home-path-buy" href="comprar.html"><span>01 / Comprar</span><strong>Encontrá una propiedad para quedarte.</strong><small>Explorar ventas <b aria-hidden="true">↗</b></small></a>
-      <a class="home-path home-path-rent" href="alquilar.html"><span>02 / Alquilar</span><strong>Tu próximo hogar puede estar más cerca.</strong><small>Ver alquileres <b aria-hidden="true">↗</b></small></a>
-    </section>
-    <section class="new-featured">
-      <div class="new-section-title"><div><p class="new-kicker">Propiedades destacadas</p><h2>Un comienzo puede estar acá.</h2></div><a href="comprar.html">Ver todas <span aria-hidden="true">→</span></a></div>
-      <div class="new-feature-grid">
-        <article><a href="detalles.html?id=casa-premium"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=82" alt="Casa premium"><span>VENTA</span></a><div><p>Villa Allende · 220 m²</p><h3>Casa premium en barrio cerrado</h3><strong>USD 315.000</strong></div></article>
-        <article><a href="detalles.html?id=moderno-jardin"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=82" alt="Dúplex moderno"><span>VENTA</span></a><div><p>Palermo Soho · 110 m²</p><h3>Dúplex con jardín privado</h3><strong>USD 245.000</strong></div></article>
-        <article><a href="detalles.html?id=depto-vista"><img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1000&q=82" alt="Departamento con vista"><span>VENTA</span></a><div><p>Nueva Córdoba · 145 m²</p><h3>Departamento con vista panorámica</h3><strong>USD 420.000</strong></div></article>
+
+    <section class="trust-featured" aria-labelledby="featured-title">
+      <div class="trust-section-heading"><div><p class="trust-eyebrow trust-eyebrow-dark">SELECCIÓN BLUARK</p><h2 id="featured-title">Propiedades que invitan a imaginar.</h2></div><a href="comprar.html?view=20260811-4">Ver todas las propiedades <span aria-hidden="true">&#8594;</span></a></div>
+      <div class="trust-featured-grid" id="homeRentals" aria-live="polite">
+        <article>
+          <a href="detalles.html?id=casa-premium"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&amp;fit=crop&amp;w=1000&amp;q=82" alt="Casa premium en barrio cerrado"></a>
+          <div><p>Villa Allende <span>220 m2</span></p><h3>Casa premium en barrio cerrado</h3><strong>USD 315.000</strong></div>
+        </article>
+        <article>
+          <a href="detalles.html?id=moderno-jardin"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&amp;fit=crop&amp;w=1000&amp;q=82" alt="Dúplex con jardín privado"></a>
+          <div><p>Palermo Soho <span>110 m2</span></p><h3>Dúplex moderno con jardín privado</h3><strong>USD 245.000</strong></div>
+        </article>
+        <article>
+          <a href="detalles.html?id=depto-vista"><img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&amp;fit=crop&amp;w=1000&amp;q=82" alt="Departamento con vista panorámica"></a>
+          <div><p>Nueva Córdoba <span>145 m2</span></p><h3>Departamento con vista panorámica</h3><strong>USD 420.000</strong></div>
+        </article>
       </div>
     </section>
-    <section class="home-closeout">
-      <div><p class="new-kicker">Tu próxima decisión</p><h2>Guardá tus favoritas y volvé cuando quieras.</h2><p>Creá tu cuenta para comparar propiedades con calma y retomar tu búsqueda desde cualquier dispositivo.</p></div>
-      <div class="home-closeout-actions"><a class="home-button home-button-dark" href="registro.html">Crear mi cuenta <span aria-hidden="true">→</span></a><a class="home-text-link" href="favoritos.html">Ver favoritos <span aria-hidden="true">↗</span></a></div>
+
+    <section class="trust-support" aria-labelledby="support-title">
+      <div><p class="trust-eyebrow">ASESORAMIENTO BLUARK</p><h2 id="support-title">No tenés que decidir solo.</h2><p>Te acompañamos para comparar opciones, entender cada propiedad y avanzar con tranquilidad.</p></div>
+      <a class="trust-button trust-button-dark" href="ayuda.html?view=20260811-4">Hablar con un asesor</a>
     </section>
   </main>
-  <footer class="new-footer"><a class="new-brand" href="index.html"><img src="bluark-circle-logo.png" alt=""><span>BLUARK<small>INMOBILIARIA</small></span></a><p>Propiedades, personas y nuevos comienzos.</p><a href="ayuda.html">¿Necesitás ayuda? →</a></footer>
+
+  <footer class="trust-footer">
+    <a class="trust-brand" href="index.html?home=home-20260811-5"><img src="bluark-circle-logo.png" alt=""><span>BLUARK<small>INMOBILIARIA</small></span></a>
+    <p>Propiedades, personas y nuevos comienzos.</p>
+    <a href="favoritos.html?view=20260811-4">Mis favoritos</a>
+  </footer>
+  <script src="data.js?v=home-catalog-20260812-1"></script>
+  <script src="app.js?v=home-catalog-20260812-1"></script>
+  <script src="home.js?v=home-catalog-20260812-1"></script>
   <script src="auth.js"></script>
 </body>
 </html>
